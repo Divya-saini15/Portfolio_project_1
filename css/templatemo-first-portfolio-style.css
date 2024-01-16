@@ -181,6 +181,10 @@ strong {
   position: relative;
 }
 
+#mailicon{
+  justify-content: center;
+}
+
 .spinner:before {
   content: '';
   box-sizing: border-box;

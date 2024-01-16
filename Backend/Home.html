@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya's World</title>
+    <link rel="stylesheet" href="Home_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="container">
+                <h1>Divya's <span>World</span></h1> 
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="dashboard">
+            <div class="side-section">
+                <ul>
+                    <li><a href="#website">Website</a></li>
+                    <!-- Add other navigation links as needed -->
+                </ul>
+            </div>
+            <div class="main-section">
+                <div id="website">
+                    <!-- Content for the 'Website' section -->
+                    <h2>My Website Projects:</h2>
+                    <div class="main-div">
+                        <div class="service">
+                            <p class="text">Pending</p>
+                        </div>
+                        <div class="service"> <p class="text">Done</p></div>
+                        <div class="service"> <p class="text">On Going</p></div>
+                        <div class="service"> <p class="text">Upcoming</p></div>
+                    </div>
+                    <button id="show">Show</button>
+                    <table id="data-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Website</th>
+                                <th>Java</th>
+                                <th>Backend</th>
+                                <th>React</th>
+                                <th>Message</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data"></tbody>
+                    </table>
+                </div>
+                <!-- Add other sections as needed -->
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
