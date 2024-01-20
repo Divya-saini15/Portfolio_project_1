@@ -2,14 +2,14 @@
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #535da1;
-  --secondary-color:              #14B789;
+  --white-color:                  #cfd9da;
+  --primary-color:                #F8FAE5;
+  --secondary-color:              #065056;
   --section-bg-color:             #f9f9f9;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --dark-color:                   #065056;
+  --p-color:                      #000;
   --border-color:                 #e9eaeb;
-  --featured-border-color:        #727aab;
+  --featured-border-color:        #F8FAE5;
 
   --body-font-family:             'DM Sans', sans-serif;
 
@@ -261,7 +261,7 @@ strong {
 .custom-btn {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--p-color);
   font-weight: var(--font-weight-bold);
   padding: 12px 24px;
 }
@@ -623,9 +623,10 @@ strong {
 -----------------------------------------*/
 .services,
 .featured {
-  background: var(--section-bg-color);
+  background: WHITE;
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
+  border-bottom-left-radius: 85px;
 }
 
 .services-thumb {
@@ -692,7 +693,7 @@ strong {
 }
 
 .services-price-text {
-  color: var(--white-color);
+  color: var( --p-color);
   font-size: var(--copyright-font-size);
   font-weight: var(--font-weight-bold);
 }
@@ -765,6 +766,7 @@ strong {
 -----------------------------------------*/
 .contact {
   background: var(--section-bg-color);
+  border-bottom-left-radius: 85px;
 }
 
 .contact-info {
