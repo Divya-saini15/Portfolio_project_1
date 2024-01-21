@@ -579,6 +579,11 @@ strong {
 /*---------------------------------------
   FEATURED              
 -----------------------------------------*/
+#achivements{
+ 
+}
+#achivements::before {
+}
 .featured-numbers {
   font-size: var(--h1-font-size);
   line-height: normal;
@@ -621,12 +626,26 @@ strong {
 /*---------------------------------------
   SERVICES              
 -----------------------------------------*/
+#section_3{
+  background-image: url('../images/pexels-moose-photos-1037992.jpg'); 
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
 .services,
 .featured {
   background: WHITE;
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   border-bottom-left-radius: 85px;
+ 
 }
 
 .services-thumb {
